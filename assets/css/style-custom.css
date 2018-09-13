@@ -1,0 +1,291 @@
+.my-logo {
+    width: 115px;
+}
+
+.serve-icon {
+    width: 90px;
+}
+
+.coming-logo {
+    width: 154px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 53px;
+}
+
+.timer {
+    font-size: 54px;
+}
+
+.comii {
+    display: inline-block;
+    background-color: #f58634;
+    padding: 11px 22px;
+    border-radius: 33px;
+}
+
+.timer-div {
+    background-color: #ffffff29;
+    color: #ffffff;
+    padding: 55px 44px 16px 44px;
+    display: inline-block;
+    margin-top: -41px;
+}
+
+.logo-move {
+    margin-top: 20vh !important;
+}
+
+@media only screen and (max-width: 1023px) {
+    /* Add your custom styles here for Tablet */
+    .timer {
+        font-size: 30px;
+    }
+    .logo-move {
+        margin-top: 10vh !important;
+    }
+    .counting {
+        padding: 12px 88px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    /* Add your custom styles here for Mobile */
+    .timer {
+        font-size: 30px;
+    }
+    .logo-move {
+        margin-top: 10vh !important;
+    }
+    .counting {
+        padding: 12px 88px;
+    }
+}
+
+.comms {
+    font-size: 63px;
+    margin-bottom: 0px;
+}
+
+.phone-call span {
+    margin-right: 10px;
+}
+
+.nav-main>li>a {
+    text-transform: capitalize;
+    padding: 0px 0px 10px;
+}
+
+.nav-main>li.active>a {
+    color: #f58634;
+    border-bottom: 1px dashed;
+}
+
+.banner-text {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.banner-marg {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.btn-search {
+    font-size: 22px;
+    padding: 12px 33px;
+}
+
+.course-grid {
+    position: relative;
+    height: 320px;
+    background-size: cover !important;
+    background-position: center !important;
+    color: white;
+    padding: 11px;
+    border-radius: 7px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.course-info {
+    position: absolute;
+    bottom: 0;
+    left: 29px;
+    font-weight: bold;
+}
+
+.course-level {
+    color: white;
+    padding: 3px 13px 11px 31px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.course-level-int {
+    background: linear-gradient(45deg, #e64e07, #ce691e);
+}
+
+.course-level-beg {
+    background: linear-gradient(45deg, #824c7e, #ff5483);
+}
+
+.course-level-exp {
+    background: linear-gradient(45deg, #123d86, #54d0ff);
+}
+
+.display-inline {
+    display: inline-block;
+}
+
+.level-mark {
+    display: inline-block;
+    padding: 0px;
+    list-style: none;
+    margin: 11px 9px 0px 0px;
+}
+
+.level-cir {
+    border: 1px solid white;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 1px;
+}
+
+.level-trans {
+    border: 1px solid white;
+    background: transparent;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 1px;
+}
+
+.level-txt {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+    width: 20px;
+}
+
+.course-tabs>li.active>a,
+.course-tabs>li.active>a,
+.course-tabs>li.active>a:hover,
+.course-tabs>li.active>a:focus {
+    color: white;
+    cursor: default;
+    background-color: #f58634;
+    border: 1px solid #fff;
+}
+
+.padded-left-0 {
+    padding-left: 0px;
+}
+
+.what-learn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+
+.what-learn li {
+    padding: 0px 13px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 48%;
+    border-left: 1px dashed #f58634;
+}
+
+.course-sing-info {
+    position: absolute;
+    width: 100%;
+    top: -236px;
+    border-radius: 16px;
+}
+
+.modal-open {
+    padding-right: 0px !important;
+}
+
+@media (max-width: 767px) {
+    .course-sing-info {
+        position: unset;
+    }
+}
+
+.course-outline {
+    border: 7px solid white;
+}
+
+.course-action {
+    text-align: center;
+}
+
+.course-action button {
+    margin-top: 10px;
+}
+
+.modal-header {
+    color: darkgray;
+}
+.form-control{
+    width: 100%;
+}
+.modal-header{
+    border: 0px;
+}
+.checked-img{
+    width: 88px;
+    margin: 0 auto;
+}
+.text-black{
+    color: black;
+}
+.modal-body h6{
+    font-weight: bold;
+    font-size: 19px;
+}
+.modal-footer{
+    text-align: center;
+}
+.close{
+    font-size: 31px;
+}
+.padded-bottom-30{
+    padding-bottom: 30px;
+}
+.co-work-item{
+    border-bottom: 1px dashed #f58634;
+    padding: 14px 0px;
+}
+.margin-top-10{
+    margin-top: 10px;
+}
+.co-work-form-input{
+    background-color: #f6f6f6!important;
+    color: black!important;
+}
+.co-head{
+    border-bottom: 1px dashed #fac398;
+    padding-bottom: 9px;
+    margin-bottom: 20px;
+}
+.text-bold{
+    font-weight: bold;
+}
+.success-modal{
+    display: none;
+}
+.logiin{
+    margin-top: 17px;
+}
