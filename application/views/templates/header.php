@@ -31,9 +31,13 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/owl.transitions.css'); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/owl.theme.css'); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/colorbox.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/colorbox.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/toastr.min.css'); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/colors/red.css'); ?>" id="colors" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+
+    
 </head>
 
 <body class="sticky-nav">

@@ -347,7 +347,7 @@ var Nest = {
 					required    : true,
 					minlength   : 2
 				},
-				email: {
+				emailAddress: {
 					required    : true,
 					email       : true
 				},
@@ -361,7 +361,7 @@ var Nest = {
 					required    : "Please enter your name.",
 					minlength   : "Your name needs to be at least 2 characters"
 				},
-				email: {
+				emailAddress: {
 					required    : "Please enter your email address.",
 					minlength   : "You entered an invalid email address."
 				},

@@ -32,22 +32,23 @@
                 <div class="col-md-4 col-sm-6 margin-bottom-20-sm margin-bottom-20-xs">
                     <h5 class="text-light">Say
                         <strong>Hello</strong>!</h5>
+
                     <!-- Contact Form -->
-                    <form id="contact-form">
+                    <form method="post" action="<?php echo base_url()?>pages/contactUpload">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" required="">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                    <input type="email" class="form-control" id="email" name="emailAddress" placeholder="Email" required="">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" id="message" name="message" rows="3" placeholder="Message"></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="3" placeholder="Message" required=""></textarea>
                         </div>
                         <div class="form-group clearfix">
                             <button type="submit" class="btn btn-primary btn-filled btn-sm pull-right">Send it!</button>
@@ -136,7 +137,9 @@
     <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.scrollTo-1.4.3.1-min.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.tweet.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.parallax.min.js'); ?>"></script>
-    <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.fitvids.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo base_url('assets/js/toastr.min.js'); ?>"></script>
+
+    <script type="text/javascript" src="<?php echo base_url('assets/js/'); ?>"></script>
 
     <!-- Custom Script -->
     <script type="text/javascript" src="<?php echo base_url('assets/js/custom.js'); ?>"></script>
@@ -150,8 +153,24 @@
                 $('.co-work-form').slideUp("slow");
                 $('.success-modal').slideDown("slow");
             });
+
+            
         });
     </script>
+    <!-- Display Message -->
+    <?php 
+        if ($this->uri->segment(2)=="inserted") {
+            # code...
+            echo '
+                <script>
+                // Display an info toast with no title
+                toastr.options.closeButton = true;
+                toastr.options.timeOut = 5000;
+                toastr.info("Thanks for Contacting Us! We would get back to you soon.", "The Nest")
+                </script>
+            ';
+        }
+    ?>
 
 </body>
 
